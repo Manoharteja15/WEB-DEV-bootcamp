@@ -1,8 +1,12 @@
-const express=require('express');
+const express = require("express");
+const path = require("path");
+
 const app = express();
-app.use(express.static(path.join(__dirname, 'Frontend')));
-const port = process.env.PORT || 8080;
-app.use(express.static("frontend"));
-app.listen(port, function() {
-    console.log("Server running on http://localhost:" + port);
+
+app.use(express.static(path.join(__dirname, "Frontend")));
+
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
