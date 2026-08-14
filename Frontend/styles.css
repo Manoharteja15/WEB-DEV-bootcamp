@@ -10,6 +10,8 @@ h1{
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(25, 173, 136);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .card img{
     width: 100%;
@@ -25,4 +27,25 @@ h1{
     background-color: red;
     color: rgb(30, 22, 109);
     cursor: pointer;
+}
+body{
+    margin: 0px;
+    color: rgb(30, 22, 109);
+    background-color: rgba(224, 230, 226, 0.836);
+}
+.navbar{
+    background-color: rgb(30, 22, 109);
+    overflow: hidden;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding:  20px;
+    display: inline-block;
+}
+.navbar a:hover {
+    color: rgb(31, 204, 54);
+    background-color: rgb(126, 16, 16);
+    text-decoration: underline;
 }
